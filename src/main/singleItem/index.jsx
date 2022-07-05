@@ -23,6 +23,7 @@ export default function SingleItem() {
 
         if (!itemDetail) {
             getDetails()
+            // console.log("")
         }
     }, [itemDetail])
 
